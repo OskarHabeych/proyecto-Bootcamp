@@ -1,0 +1,116 @@
+body{
+   background-color: #FEFCFB; 
+}
+
+#imageLogo{
+    margin: -20px;
+}
+
+.nav-link{
+    font-weight: bolder;
+}
+
+.btn-l{
+    width: 20%; 
+    color: #FD8D3A !important;
+    font: bolder !important;
+
+}
+
+.btn-p{
+    background-color: #FA7436 !important;
+    width: 30%;
+    border: #FA7436;
+    font: bolder !important;
+
+}
+
+.btn-discover{
+    background-color: #FFFFFF;
+    color: #FA7436;
+}
+
+#divBlank{
+    margin: 5em;
+    background-color: aliceblue;
+    width: 70em;
+    padding: 2em;
+}
+
+#exploreNow{
+    background-color: #FA7436 !important;
+    width: 50%;
+    border: #FA7436;
+    font: bolder;
+}
+
+.container-steps{
+    background-color: #F7F8FC;
+}
+
+.card-steps{
+    background-color: #FFF8F5;
+    width: 86% !important;
+    border: 5% !important;
+    border-color: #e20a0a14 !important;
+    padding-top: 25px;
+    padding-left:  20px;
+    padding-bottom: 30px;
+}
+
+.card-steps img{
+    margin-top: 5%;
+    margin: 6%;
+    width: 46px;
+    height: 49px;
+    }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+}
+
+.city img {
+    margin-left: 2.8cm; 
+}
+
+.price {
+    margin-top: 1cm; 
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap; 
+}
+
+.price small svg {
+    margin-right: 0.5rem; 
+}
+
+.price img {
+    margin-right: 0.35rem;
+}
+
+.container-foot {
+    background-color: #F7F8FC;
+    padding-top: 10%;
+    }
+    
+    .encabezado {
+      background-color: #FA7435;
+      color: white;
+      padding: 40px;
+      border-radius: 10px;
+    }
+    #derechas{
+      text-align: right;
+    }
+

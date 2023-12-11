@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshopuno</title>
+    
+    <link rel="icon" href="./icons/flavicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="container-fluid bg-white" style="height:100vh;">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col">
+                    <img id="imageLogo" src="/static/Logo-Proyecto.png" alt="Logo">
+                </div>
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Destination</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Tour</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Blog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-light btn-l" type="button">Login</button>
+                        <button class="btn btn-primary btn-p" type="button">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col">
+                    <h1 class="text-start fw-bold">Get started your<br>exciting <span id="cambio-color" style="color: #FA7436;">journey</span><br>with us.</h1>
+                    <h5 class="text-start my-5"><small class="text-muted">A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place.</small></h5>
+                    <button type="button" class="btn btn-outline-warning btn-discover">Discover Now</button>
+                </div>
+                <div class="col">
+                    <img src="/img/frame1.png" alt="piano" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="divBlank" class="row">
+                <div class="col-3"> <!--tamaño del Espacio de cada columna -->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Location</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">España</a></li>
+                            <li><a class="dropdown-item" href="#">Colombia</a></li>
+                            <li><a class="dropdown-item" href="#">Estados Unidos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Date</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Diciembre</a></li>
+                            <li><a class="dropdown-item" href="#">Enero </a></li>
+                            <li><a class="dropdown-item" href="#">Febrero</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Guest</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">1</a></li>
+                            <li><a class="dropdown-item" href="#">2</a></li>
+                            <li><a class="dropdown-item" href="#">3</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <button id="exploreNow" class="btn btn-primary" type="button">Explore Now</button> 
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container container-steps">
+            <div class="row mt-5 p-4 justify-content-md-center">
+                <div class="col-md-auto">
+                    <h2 class="text-start fw-bold">Things you need <span id="cambio-color" style="color: #FA7436;">to do</span></h2>
+                    <h6 class="text-center my-4"><small class="text-muted">We ensure that you'll embark on a perfectly planned,<br>safe vacation at a price you can afford.</small></h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="container container-steps">
+            <div class="row mt-2 p-4 justify-content-md-center">
+                <div class="col-4">
+                    <div class="card card-steps" style="width: 17rem;">
+                        <img src="/img/Group.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sign Up</h5>
+                            <p class="card-text"><small class="text-muted">Completes all the work associated<br>with planning and processing</small></p>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-4">
+                <div class="card card-steps" style="width: 17rem;">
+                    <img src="/img/Group (1).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Worth of Money</h5>
+                        <p class="card-text"><small class="text-muted">After successful access then book<br>from exclusive deals & pricing</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-steps" style="width: 17rem;">
+                    <img src="/img/Group (2).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Exciting Travel</h5>
+                        <p class="card-text"><small class="text-muted">Start and explore a wide range of<br>exciting travel experience.</small></p>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container">
+            <div class="row mt-5 p-5 justify-content-md-center">
+                <div class="col-md-auto">
+                    <h2 class="text-start fw-bold">Exclusive <span id="cambio-color" style="color: #FA7436;">deals & discounts</span></h2>
+                    <h6 class="text-center my-4"><small class="text-muted">Discover our fantastic early booking discounts<br>& start planning your journey.</small></h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" style="width: 16rem;">
+                        <img src="/img/Card-1.png" class="card-img-top" alt="Caverna">
+                        <div class="card-body">
+                            <div class="city">
+                                <h5 class="card-title1">Madrid</h5>
+                                <img src="/icons/star 1.png" alt="Estrella">
+                                <p class="card-text">&nbsp;&nbsp;4.8</p>
+                            </div>
+                            <div class="price">
+                                <p class="card-text"><small class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                                  </svg>Spain</small></p>
+                                    <div class="numberPrice">
+                                        <p><img src="/icons/Icon Card-1.png" alt="Precio anterior">
+                                        <img src="/icons/Icon2 Card-1.png" alt="Precio actual"></p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 16rem;">
+                        <img src="/img/Card-2.png" class="card-img-top" alt="Faro">
+                        <div class="card-body">
+                            <div class="city">
+                                <h5 class="card-title1">Firenze</h5>
+                                <img src="/icons/star 1.png" alt="Estrella">
+                                <p class="card-text">&nbsp;&nbsp;4.5</p>
+                            </div>
+                            <div class="price">
+                                <p class="card-text"><small class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                                  </svg>Italy</small></p>
+                                <div class="numberPrice">
+                                    <p><img src="/icons/Icon Card-2.png" alt="Precio anterior">
+                                    <img src="/icons/Icon2 Card-2.png" alt="Precio actual"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 16rem;">
+                        <img src="/img/Card-3.png" class="card-img-top" alt="Acantilado">
+                        <div class="card-body">
+                            <div class="city">
+                                <h5 class="card-title1">Paris</h5>
+                                <img src="/icons/star 1.png" alt="Estrella">
+                                <p class="card-text">&nbsp;&nbsp;4.4</p>
+                            </div>
+                            <div class="price">
+                                <p class="card-text"><small class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                                  </svg>France</small></p>
+                                <div class="numberPrice">
+                                    <p><img src="/icons/Icon Card-3.png" alt="Precio anterior">
+                                    <img src="/icons/Icon2 Card-3.png" alt="Precio actual"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 16rem;">
+                        <img src="/img/Card-4.png" class="card-img-top" alt="Dunas">
+                        <div class="card-body">
+                            <div class="city">
+                                <h5 class="card-title1">London</h5>
+                                <img src="/icons/star 1.png" alt="Estrella">
+                                <p class="card-text">&nbsp;&nbsp;4.8</p>
+                            </div>
+                            <div class="price">
+                                <p class="card-text"><small class="text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                                  </svg>UK</small></p>
+                                <div class="numberPrice">
+                                    <p><img src="/icons/Icon Card-4.png" alt="Precio anterior">
+                                    <img src="/icons/Icon2 Card-4.png" alt="Precio actual"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+
+        <body>
+            <div class="container container-foot">
+                <div class="row">
+                    <div class="col">
+        
+                    </div>
+                    <div class="col-8">
+                        <div class="container text-center encabezado">
+                            <div class="row">
+                                <div class="col">
+        
+                                </div>
+                                <div class="col-8">
+                                    <h1>Subscribe and get exclusive deals & offer</h1><br>
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="&#xF32F; Enter your mail"
+                                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <button class="btn btn-outline-secondary" type="button"
+                                            id="button-addon2">Subscribe</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+        
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class="col">
+        
+                    </div>
+                </div>
+                <br><br><br>
+                <div class="row justify-content-md-center">
+                    <div class="col-2">
+                    
+                    </div>
+                    <div class="col-4">
+                        <p><b>Trabook</b><br>
+                            Book your trip in minute, get full<br>
+                            Control for much longer</p>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        
+                    </div>
+                    <div class="col-2">
+                        <p><b>Company</b> <br>
+                            About <br>
+                            Careers <br>
+                            Logistic <br>
+                            Privacy & Policy</p>
+                    </div>
+                    <div class="col-1">
+                        <p><b>Contact </b><br>
+                            Help/FAQ <br>
+                            Press <br>
+                            Affiliates</p>
+                    </div>
+                    <div class="col-1">
+                        <p><b>More</b> <br>
+                            Press Center <br> 
+                            Our Blog <br>
+                            Low fare tips</p>
+                    </div>
+                    <div class="col-2">
+                    </div>
+                    <div class="col-8">
+                        <hr/>
+                    </div>
+                
+                </div>
+                <div class="row">
+                    <div class="col-2">
+        
+                    </div>
+                    <div class="col">
+                        <p>&copy; 2023 My Website. Todos los derechos reservados.</p>
+                    </div>
+                    <div class="col" id="derechas">
+                        <p>Terms & Conditions</p>
+                    </div>
+                    <div class="col-2">
+        
+                    </div>
+                </div>
+            </div>
+    </div>  
+</body>
+
+</html>
